@@ -6,6 +6,12 @@
   width: 800px;
   background-color: #ddd;
   margin: 0 auto;
+}
+h1 {
+  padding: 20px 40px;
+}
+
+.flex-area {
   display: flex;
   /* flex-direction: column; */
   /* gap: 20px; */
@@ -15,7 +21,6 @@
   flex-wrap: wrap;
   flex-grow: 2;
 }
-
 .box {
   height: 150px;
   width: 150px;
