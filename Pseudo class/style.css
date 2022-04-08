@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 500px;
+  width: 800px;
+  background-color: #ddd;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  position: relative;
+}
+h1::after,
+h1::before {
+  content: "";
+  height: 2px;
+  width: 25px;
+  background-color: #000000;
+  display: block;
+  position: absolute;
+}
+
+h1::after {
+  top: 50%;
+  left: 20%;
+}
+h1::before {
+  top: 50%;
+  right: 20%;
+}
+
+p::first-letter {
+  font-size: 50px;
+  color: red;
+}
+
+p::selection {
+  background-color: #ffaadd;
+  color: green;
+}
+
+li::marker {
+  color: red;
+  font-size: 20px;
+}
